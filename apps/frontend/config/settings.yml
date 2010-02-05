@@ -40,3 +40,12 @@ all:
     i18n:                   true
 
     standard_helpers:       [Partial, Cache, I18N]
+
+    enabled_modules:
+      - default
+      - sfJobeetAffiliate
+      - sfJobeetApi
+      - sfJobeetCategory
+      - sfJobeetJob
+      - sfJobeetLanguage
+      

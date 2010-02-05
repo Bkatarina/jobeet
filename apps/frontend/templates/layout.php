@@ -19,7 +19,7 @@
     <div id="container">
       <div id="header">
         <div class="content">
-          <h1><a href="<?php echo url_for('job/index') ?>">
+          <h1><a href="<?php echo url_for('sfJobeetJob/index') ?>">
             <img src="/images/logo.jpg" alt="Jobeet Job Board" />
           </a></h1>
 
@@ -95,7 +95,7 @@
                 <?php echo link_to(__('Become an affiliate'), '@affiliate_new') ?>
               </li>
             </ul>
-            <?php include_component('language', 'language') ?>
+            <?php include_component('sfJobeetLanguage', 'language') ?>
           </div>
         </div>
     </div>
